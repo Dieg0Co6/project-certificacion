@@ -7,7 +7,7 @@
 </head>
 <body>
     <div>
-        Hola mundo
+        SISTEMA DE CERTIFICACIÓN
     </div>
 </body>
 </html>
