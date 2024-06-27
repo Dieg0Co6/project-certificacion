@@ -10,7 +10,7 @@
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.bunny.net">
     <link href="https://fonts.bunny.net/css?family=figtree:400,600&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="../css/login.css">
+    <link rel="stylesheet" href="{{ asset('css/login.css') }}">
     <!-- Styles -->
 
 </head>
@@ -64,5 +64,5 @@
         </div>
     </div>
 </body>
-<script src="../js/vista.js"></script>
+<script src="{{ asset('js/vista.js') }}"></script>
 </html>
