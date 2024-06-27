@@ -1,0 +1,194 @@
+:root{
+    user-select: none;
+}
+
+body {
+    background: #D8EEFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.conteiner {
+    background: #F4F8FA;
+    box-shadow: 10px 7px 5px 1px rgba(19, 108, 147, 0.93);
+    -webkit-box-shadow: 10px 7px 5px 1px rgba(19, 108, 147, 0.93);
+    -moz-box-shadow: 10px 7px 5px 1px rgba(19, 108, 147, 0.93);
+    width: 65vw;
+    height: 55vh;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: row;
+    padding: 35px 10px;
+
+}
+
+.primer-conteiner {
+    display: flex;
+    flex-direction: column;
+    width: 44%;
+    /*border: 1px solid red;*/
+}
+
+.conteiner-logo {
+    padding: 50px 0px 0px 40px;
+    margin-bottom: 0;
+}
+
+.conteiner-h2 {
+    padding: 15px 0px 0px 40px;
+}
+
+.conteiner-logo img {
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+}
+
+.segundo-conteiner {
+    width: 56%;
+    border-left: 8px solid rgba(19, 108, 147, 0.93);
+    padding-left: 10px;
+    /* Ocupar todo el ancho */
+}
+
+.conteiner-credencial {
+    padding: 25px 45px 0px 20px;
+    position: relative;
+    margin: 0px 65px 70px 0px;
+}
+
+.input {
+    width: 100%;
+    /* Inputs de ancho completo */
+    height: 25px;
+    padding: 10px;
+    /* Espaciado interno */
+    margin-bottom: 15px;
+    /* Separación entre inputs */
+    border: 1px solid #ccc;
+    /* Borde gris */
+    border-radius: 8px;
+    /* Esquinas redondeadas */
+}
+
+
+.button-register,
+.button-login {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 18px;
+    font-family: "Germania One";
+    font-weight: 800;
+}
+
+.button-register {
+    background-color: #D8EEFF;
+    color: #333;
+    text-decoration: none;
+    /* Texto oscuro */
+}
+
+
+.button-login {
+    background-color: rgba(19, 108, 147, 0.93);
+    color: #fff;
+}
+
+
+.conteiner-recuperar {
+    padding: 0px 25px 0px 20px;
+    display: flex;
+    justify-content: end;
+    margin: 0px 0px 20px 0px;
+}
+
+.conteiner-recuperar a {
+    text-decoration: none;
+    font-size: 18px;
+    color: rgba(19, 108, 147, 0.93);
+    font-weight: 800;
+}
+
+.conteiner-nota {
+    padding: 0px 25px 0px 20px;
+    margin-top: 10px;
+}
+
+.conteiner_register_login {
+    display: flex;
+    justify-content: end;
+    margin-top: 30px;
+    padding-right: 25px;
+}
+
+.button-register {
+    margin-right: 15px;
+}
+
+.conteiner-credencial label {
+    position: absolute;
+    bottom: -8px;
+    background-color: #F4F8FA;
+    /* Ajusta este valor según sea necesario */
+    left: 35px;
+    padding: 0 2px;
+    /* Agrega un pequeño relleno al label */
+    font-size: 14px;
+    z-index: 5;
+    /* Ajusta el tamaño de fuente según sea necesario */
+
+}
+
+.conteiner-credencial .input {
+    padding: 10px;
+    /* Agrega un relleno al input para separarlo del label */
+    position: absolute;
+    z-index: 1;
+    border: 2px solid rgba(19, 108, 147, 0.93);
+    background-color: #F4F8FA;
+    text-indent: 5px;
+    /* Agrega un borde al input */
+}
+
+
+.grenze-gotisch {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 800;
+    font-size: 32px;
+}
+
+.ubuntu-sans-mono-label {
+    font-family: "Ubuntu Sans Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 2px;
+}
+
+.germania-one-regular{
+    font-family: "Germania One", system-ui;
+    font-weight: 400;
+}
+
+.ocultar-vista {
+    display: none;
+}
+.mostrar-vista {
+    display: block;
+}
+.conteiner-vista {
+    position: relative;
+}
+.conteiner-vista div {
+    position: absolute;
+    left: 470px;
+    top: 15px;
+    cursor: pointer;
+    z-index: 100;
+}
+
